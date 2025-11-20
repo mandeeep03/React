@@ -1,1 +1,1 @@
-# React Learning & Projects
+# React Projects
