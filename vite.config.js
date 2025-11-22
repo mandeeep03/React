@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   preview: {
     host: true,
-    allowedHosts: ['react-08dv.onrender.com'],
+    allowedHosts:true,
   },
 })
