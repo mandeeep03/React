@@ -8,15 +8,15 @@ function Header() {
         className="
           flex w-[90%]
           py-2 pl-4 md:pl-8 px-4
-          bg-white/10 border border-white/20 rounded-2xl
+          bg-white/10 rounded-2xl
           shadow-[0_8px_30px_rgba(0,0,0,0.12)]
-          items-center justify-between backdrop-blur-xl
+          items-center justify-between backdrop-blur-xl 
           sm:py-4 md:w-[80%] lg:w-[70%]
         "
       >
         <h2 className="text-3xl font-semibold font-mono">Manni</h2>
 
-        <ul className="hidden sm:flex text-xl gap-4 md:gap-8">
+        <ul className="hidden md:flex text-xl gap-4 md:gap-8">
           {["Home", "Project", "Contact Me", "About"].map((item) => (
             <li
               key={item}
@@ -28,7 +28,7 @@ function Header() {
         </ul>
 
         <div className="flex items-center gap-3">
-          <div className="hidden sm:flex gap-3">
+          <div className="hidden md:flex gap-3">
             <Button name="Login" />
             <Button name="Signup" />
           </div>

@@ -1,35 +1,33 @@
 function Footer() {
-    return (
+  return (
     <footer
-        className="w-full  py-4 px-6 md:px-12
+      className="w-full  py-4 px-6 md:px-12
         bg-white/10 backdrop-blur-xl
         shadow-[0_8px_30px_rgba(0,0,0,0.12)] fixed bottom-0 left-0"
     >
-        <div className="flex justify-around my-8 sm:my-16">
+      <div className="flex justify-around my-4 md:my-8">
         <ul>
-            {["Home", "Project", "Contact Me", "About"].map((item) => (
+          {["Home", "Project", "Contact", "About"].map((item) => (
             <li
-                key={item}
-                className="hover:underline underline-offset-4 text-l sm:text-xl transition-all ease-in-out duration-300"
+              key={item}
+              className="text-l md:text-xl hover:bg-black/10 transition-all ease-in-out duration-300 border border-black/40 m-2  md:border-none rounded-lg px-16"
             >
-                <a href="#">{item}</a>
+              <a href="#">{item}</a>
             </li>
-            ))}
+          ))}
         </ul>
 
         <span
-            className="text-7xl md:text-8xl leading-normal font-mono font-bold
+          className=" hidden md:inline text-7xl md:text-8xl leading-normal font-mono font-bold
 "
         >
-            Manni
+          Manni
         </span>
-        </div>
+      </div>
 
-        <div className="text-sm text-center">
-        © 2025 Manni
-        </div>
+      <div className="text-sm text-center">© 2025 Manni</div>
     </footer>
-    );
+  );
 }
 
 export default Footer;
