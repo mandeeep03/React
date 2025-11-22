@@ -21,12 +21,12 @@ function Footer() {
             className="text-7xl md:text-8xl leading-normal font-mono font-bold
 "
         >
-            MANNI
+            Manni
         </span>
         </div>
 
         <div className="text-sm text-center">
-        © 2025 MANNI
+        © 2025 Manni
         </div>
     </footer>
     );
