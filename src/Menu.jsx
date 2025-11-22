@@ -21,7 +21,7 @@ function Menu() {
       <img
         src={menuPng}
         alt="menu"
-        className="w-8 h-8 cursor-pointer md:hidden"
+        className="w-5 h-5 cursor-pointer md:hidden"
         onClick={() => setOpen(!open)}
       />
 
