@@ -27,7 +27,7 @@ function Menu() {
 
       {open && (
         <div
-          className="
+          className=" md:hidden
             absolute right-0 mt-4 w-40
             bg-white/10 backdrop-blur-xl
             border border-white/20

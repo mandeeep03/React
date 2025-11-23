@@ -14,10 +14,10 @@ function Header() {
           sm:py-4 md:w-[80%] lg:w-[70%]
         "
       >
-        <h2 className="text-3xl font-semibold font-mono">Manni</h2>
+        <h2 className="text-3xl font-bold font-mono">Manni</h2>
 
         <ul className="hidden md:flex text-xl gap-4 md:gap-8">
-          {["Home", "Project", "Contact Me", "About"].map((item) => (
+          {["Home", "Projects", "Skills", "About Me"].map((item) => (
             <li
               key={item}
               className="transition-all hover:underline underline-offset-8 ease-in-out duration-300"

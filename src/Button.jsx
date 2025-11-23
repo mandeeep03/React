@@ -9,7 +9,7 @@ function Button(props) {
   }
   return (
     <>
-      <button class={name}>{props.name}</button>
+      <button className={name}>{props.name}</button>
     </>
   );
 }
