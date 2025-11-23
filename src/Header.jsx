@@ -3,10 +3,10 @@ import Button from "./Button";
 
 function Header() {
   return (
-    <header className="flex w-full pt-4 justify-center">
+    <header className="fixed top-4 w-full z-50 flex justify-center">
       <nav
         className="
-          flex w-[90%]
+          flex w-full
           py-2 pl-4 md:pl-8 px-4
           bg-white/10 rounded-2xl
           shadow-[0_8px_30px_rgba(0,0,0,0.12)]

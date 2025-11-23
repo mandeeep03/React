@@ -3,7 +3,7 @@ function Footer() {
     <footer
       className="w-full py-4 px-6 md:px-12
       bg-white
-      fixed bottom-0 left-0
+      bottom-0 left-0
       shadow-[0_8px_30px_rgba(0,0,0,0.1)]
       "
     >

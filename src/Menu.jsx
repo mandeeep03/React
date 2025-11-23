@@ -29,7 +29,7 @@ function Menu() {
         <div
           className=" md:hidden
             absolute right-0 mt-4 w-40
-            bg-white/10 backdrop-blur-xl
+            bg-white/10 backdrop-blur-md
             border border-white/20
             shadow-[0_8px_30px_rgba(0,0,0,0.12)]
             rounded-xl p-4
